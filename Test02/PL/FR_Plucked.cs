@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Test02.PL
 {
-    public partial class FR_Pros_Emp : Form
+    public partial class FR_Plucked : Form
     {
-        public FR_Pros_Emp()
+        public FR_Plucked()
         {
             InitializeComponent();
         }

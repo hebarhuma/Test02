@@ -47,25 +47,131 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AL\DataAccessLayer.cs" />
+    <Compile Include="BL\CS_Categories.cs" />
+    <Compile Include="BL\CS_Customers.cs" />
+    <Compile Include="BL\CS_Employees.cs" />
+    <Compile Include="BL\CS_Establishment.cs" />
+    <Compile Include="BL\CS_Expenses.cs" />
+    <Compile Include="BL\CS_Marketers.cs" />
+    <Compile Include="BL\CS_Orders.cs" />
+    <Compile Include="BL\CS_PaymentStyle.cs" />
+    <Compile Include="BL\CS_Purchases.cs" />
+    <Compile Include="BL\CS_Sales.cs" />
+    <Compile Include="BL\CS_Store.cs" />
+    <Compile Include="BL\CS_Supplier.cs" />
+    <Compile Include="BL\CS_Treasury.cs" />
+    <Compile Include="BL\CS_Units.cs" />
+    <Compile Include="BL\CS_Users.cs" />
+    <Compile Include="PL\FR_ Jobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_ Jobs.Designer.cs">
+      <DependentUpon>FR_ Jobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_Advance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_Advance.Designer.cs">
+      <DependentUpon>FR_Advance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_Archives.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_Archives.Designer.cs">
+      <DependentUpon>FR_Archives.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_Debt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_Debt.Designer.cs">
+      <DependentUpon>FR_Debt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_Expend_Money.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_Expend_Money.Designer.cs">
+      <DependentUpon>FR_Expend_Money.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_Info_Salary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_Info_Salary.Designer.cs">
+      <DependentUpon>FR_Info_Salary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_Plucked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_Plucked.Designer.cs">
+      <DependentUpon>FR_Plucked.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_Salaries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_Salaries.Designer.cs">
+      <DependentUpon>FR_Salaries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_Nationalities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_Nationalities.Designer.cs">
+      <DependentUpon>FR_Nationalities.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\FR_Emp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PL\FR_Emp.Designer.cs">
       <DependentUpon>FR_Emp.cs</DependentUpon>
     </Compile>
-    <Compile Include="PL\FR_Pros_Emp.cs">
+    <Compile Include="PL\FR_Salary_OK.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PL\FR_Pros_Emp.Designer.cs">
-      <DependentUpon>FR_Pros_Emp.cs</DependentUpon>
+    <Compile Include="PL\FR_Salary_OK.Designer.cs">
+      <DependentUpon>FR_Salary_OK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\FR_TypeSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\FR_TypeSalary.Designer.cs">
+      <DependentUpon>FR_TypeSalary.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PL\FR_ Jobs.resx">
+      <DependentUpon>FR_ Jobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_Advance.resx">
+      <DependentUpon>FR_Advance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_Archives.resx">
+      <DependentUpon>FR_Archives.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_Debt.resx">
+      <DependentUpon>FR_Debt.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\FR_Emp.resx">
       <DependentUpon>FR_Emp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PL\FR_Pros_Emp.resx">
-      <DependentUpon>FR_Pros_Emp.cs</DependentUpon>
+    <EmbeddedResource Include="PL\FR_Expend_Money.resx">
+      <DependentUpon>FR_Expend_Money.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_Info_Salary.resx">
+      <DependentUpon>FR_Info_Salary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_Plucked.resx">
+      <DependentUpon>FR_Plucked.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_Salaries.resx">
+      <DependentUpon>FR_Salaries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_Nationalities.resx">
+      <DependentUpon>FR_Nationalities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_Salary_OK.resx">
+      <DependentUpon>FR_Salary_OK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\FR_TypeSalary.resx">
+      <DependentUpon>FR_TypeSalary.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -113,6 +219,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\71880225_506727409905549_9016804364982943744_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-europe-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkmark_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bank-cards-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-payroll-15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bank-cards-15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-female-profile-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-archive-folder-15.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

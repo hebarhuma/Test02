@@ -16,7 +16,7 @@ namespace Test02
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PL.FR_Emp());
+            Application.Run(new PL.FR_Salaries());
         }
     }
 }
